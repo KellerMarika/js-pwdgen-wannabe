@@ -1,8 +1,17 @@
-
-
-body{
-    font-family: 'Love Ya Like A Sister', cursive;
-
+:root {
+    /* default */
+    --color: rgb(0, 0, 0);
 
 }
 
+
+body {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+
+/*  */
+#pass-generator {
+    color: var(--color);
+
+}
